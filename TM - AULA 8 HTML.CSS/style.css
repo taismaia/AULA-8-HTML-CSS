@@ -1,0 +1,88 @@
+
+body{
+    background-color: #787ed683;
+    font-family: "Honk", system-ui;
+    color: white;
+    
+   }
+
+.cabecalho{
+    background-color:#f8efed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-block: 11px;
+    
+}
+
+
+.cabecalho-logo{
+   max-width: 70px;
+    
+}
+
+.cabecalho-logo:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+
+.cabecalho-lista{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+
+.cabecalho-lista-item{
+    text-decoration: none;
+    font-size: 40px;
+
+}
+
+.cabecalho-lista-item:hover{
+    color: white;
+}
+
+
+
+.cabecalho-curriculo{
+    display: flex;
+    background-color: rgba(146, 47, 88, 0.61);
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    transition: 0.5s ease-in-out;
+   
+}
+
+.cabecalho-curriculo:hover{
+    background-color:  rgb(146, 47, 88);
+}
+
+
+.home-caixinha-imagem{
+    display: flex;
+    max-width: 280px;
+    border-radius: 10px;
+}
+
+.home{
+    height: 100vh;
+    background-image: url(https://www.icegif.com/wp-content/uploads/2023/05/icegif.gif);
+}
+
+.home-caixinha{
+    background-color: black;
+    height: 60vh;
+}
+
+.home-caixinha-imagem{
+    
+}
